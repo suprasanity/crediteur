@@ -1,0 +1,83 @@
+/* emprunts.component.css */
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px; /* Ajustez la marge supérieure selon vos besoins */
+  background-color: #960018;
+
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px; /* Ajoutez une marge inférieure au titre si nécessaire */
+}
+
+button {
+  margin-bottom: 10px; /* Ajoutez une marge inférieure aux boutons */
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+td {
+  background-color: #fff;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+mat-checkbox {
+  margin: 0;
+}
+.banderau{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #960018;
+  color: white;
+  font-size: large;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
+}
+.page{
+  background-color: grey;
+  height: 100vh;
+}
+
+mat-paginator {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  background-color: darkgray;
+  color: white;
+
+}
+.button {
+  margin-top: 10px;
+  margin-left: 10px;
+  background-color: #960018;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 50px; /* Set a fixed width for the button */
+  height: 50px; /* Set a fixed height for the button */
+  padding: 0; /* Remove padding to make it a square */
+  cursor: pointer;
+}
+
+

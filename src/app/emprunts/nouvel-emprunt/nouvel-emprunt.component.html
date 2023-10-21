@@ -1,0 +1,16 @@
+
+<form (ngSubmit)="ajouterEmprunt()">
+  <mat-form-field>
+    <input matInput placeholder="Nom de l'emprunteur" name="nomEmprunteur" [(ngModel)]="nouvelEmprunt.nomEmprunteur" required>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput type="number" placeholder="Débit" name="debit" [(ngModel)]="nouvelEmprunt.debit" required>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput placeholder="Email" name="email" [(ngModel)]="nouvelEmprunt.email" required>
+  </mat-form-field>
+  <mat-form-field>
+    <input matInput type="date" placeholder="Date d'emprunt" name="dateEmprunt" [(ngModel)]="nouvelEmprunt.dateEmprunt" required>
+  </mat-form-field>
+  <button mat-raised-button type="submit">Ajouter</button>
+</form>
